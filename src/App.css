@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #3E5C76;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #2E455D;
+}
+
+html, body, #root{
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body{
+  background-color: #1D2D44;
+}
+
+header{
+  background: #0B0F1B;
+  height: 9%;
+  padding: 10px;
+  text-align: center;
+}
+
+nav{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+nav button{
+  background-color: #111A2A;
+  margin: 10px;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 10pt;
+  border: none;
+  border-radius: 10px;
+}
+
+nav button:hover{
+  cursor: pointer;
+  background-color: #0c121c;
+}
+
+#get {
+  color: rgb(32, 138, 32);
+}
+#post {
+  color: rgb(159, 159, 27);
+}
+#put {
+  color: rgb(49, 92, 209);
+}
+#delete {
+  color: rgb(159, 65, 31);
+}
+
+.insertDataContainer {
+  display: flex;
+  width: 100%;
+}
+
+.data{
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 220px;
+  padding: 20px;
+  margin: auto;
+}
+
+.data input{
+  width: 400px;
+  height: 30px;
+  margin: 5px auto;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.327);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+.data button{
+  width: 150px;
+  height: 40px;
+  margin: 5px auto;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.327);
+  border-radius: 20px;
+}
+
+.data button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.097);
+}
+
+main{
+  height: 88%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+td, th{
+  border: 1px solid #fff;
+  width: 80px;
+  padding: 20px;
+}
